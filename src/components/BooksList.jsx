@@ -9,7 +9,7 @@ const BooksList = () => {
         <Grid container spacing={2}>
             {
                 books.map((i) => (
-                    <Grid key={i.id} item sx={{ pb: 4 }}>
+                    <Grid key={i.id} item sx={{ mb: 4, height: 300 }}>
                         <BooksCard obj={i} />
                     </Grid>
                 ))

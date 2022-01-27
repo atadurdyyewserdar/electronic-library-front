@@ -35,7 +35,7 @@ export default function HomePage() {
                         <Grid item xs={8}>
                             <BooksList />
                         </Grid>
-                        <Grid item xs={4}>
+                        <Grid item xs={4} sx={{mt: -1.5}}>
                             <Typography variant='h2' align='left' sx={{ ml: 10, pb: 3 }}>
                                 Filters
                             </Typography>
